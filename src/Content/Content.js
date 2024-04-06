@@ -1,9 +1,9 @@
 import React from "react";
 import './Content.css';
 import './Content-media-queries.css';
-import Cover from '../assets/images/Folder-SouEu.jpg';
 import ArtistCover from '../assets/images/Martin Garrix.jpg';
-import Card from './Card/Card';
+import SongsCards from "./Card/SongsCards";
+import MixingsCards from "./Card/MixingsCards";
 
 const Content = () => {
     return (
@@ -15,44 +15,7 @@ const Content = () => {
                     <span>Marcos Exing Songs</span>
                 </div>
 
-                <div className="cards">
-
-                    <Card/>
-
-                    <div className="card">
-                        <img src={Cover} alt="In The Night Cover" />
-                        <span className="title">In The Night</span>
-                        <div className="play">
-                            <span className="fa fa-circle-play" />
-                            <audio id="inTheNight" src="../assets/musics/In The Night.wav" preload="auto"/>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <img src={Cover} alt="Jump Up Cover" />
-                        <span className="title">Jump Up Cover</span>
-                        <div className="play">
-                            <span className="fa fa-circle-play" />
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <img src={Cover} alt="Deep In Your Mind Cover" />
-                        <span className="title">Deep In Your Mind</span>
-                        <div className="play">
-                            <span className="fa fa-circle-play" />
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <img src={Cover} alt="Slicer Cover" />
-                        <span className="title">Slicer</span>
-                        <div className="play">
-                            <span className="fa fa-circle-play" />
-                        </div>
-                    </div>
-
-                </div>
+                <SongsCards/>
 
             </div>
 
@@ -62,25 +25,7 @@ const Content = () => {
                     <span>Marcos Exing Mixes</span>
                 </div>
 
-                <div className="cards">
-
-                    <div className="card">
-                        <img src={Cover} alt="Mixing 1" />
-                        <span className="title">Mixing 1</span>
-                        <div className="play">
-                            <span className="fa fa-circle-play" />
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <img src={Cover} alt="Mixing 2" />
-                        <span className="title">Mixing 2</span>
-                        <div className="play">
-                            <span className="fa fa-circle-play" />
-                        </div>
-                    </div>
-
-                </div>
+                <MixingsCards/>
 
             </div>
 
