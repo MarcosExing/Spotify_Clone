@@ -1,0 +1,92 @@
+.main-content {
+    background-color: var(--bg-box-color);
+    border-radius: var(--box-round);
+    font-family: var(--fon-dm-sans);
+    color: #fff;
+    padding: 0px 20px 20px 20px;
+    margin: 10px;
+    max-height: 68.5vh;
+    overflow-y: auto;
+}
+
+.main-title {
+    font-size: var(--font-extra-big);
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.songs-container .cards {
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--bg-box-color-little-light);
+    border-radius: var(--box-round);
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    border-radius: var(--box-round);
+}
+
+.card .title {
+    font-size: var(--font-big);
+    font-weight: 800;
+}
+
+.play {
+    position: relative;
+}
+
+.play .fa-circle-play {
+    position: absolute;
+    right: 5px;
+    top: -100px;
+    padding: 0px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 50px;
+    opacity: 0;
+    transition: all ease 0.4s;
+}
+
+.card:hover .play .fa-circle-play {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.play:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.artists-container .cards{
+    display: grid;
+    justify-items: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+.artists-container .cards img {
+    border-radius: 200px;
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.main-container {
+  max-width: 80vm;
+  height: 80vh;
+  margin-left: 320px;
+  margin-right: 56px;
+}

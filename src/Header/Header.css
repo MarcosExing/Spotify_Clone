@@ -1,0 +1,128 @@
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: var(--box-round);
+    background-color: var(--bg-box-color);
+}
+
+.header__navigation .fa {
+    font-size: var(--icon-small);
+    color: #a7a7a7;
+}
+
+.header__navigation .logo {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__navigation .logo img {
+    width: 80px;
+}
+
+.header__navigation .logo .fa{
+    font-size: var(--icon-medium);
+    margin-right: 20px;
+    color: #b3b3b3;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right, .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button {
+    display: none;
+}
+
+.arrow-left span:hover, .arrow-right span:hover, .search-button span:hover {
+    color: #fff;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-left: 8px;
+    padding: 8px;
+    background-color: var(--bg-search-color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.header__search input {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+    font-size: var(--font-medium);
+}
+
+.header__search:hover {
+    border-color: #fff;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search .fa {
+    color: #fff;
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: var(--font-medium);
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    cursor: pointer;
+    border: none;
+}
+
+.subscribe:hover {
+    color: #fff;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: var(--font-medium);
+    font-weight: 700;
+    border-radius: var(--button-super-round);
+    cursor: pointer;
+    border: none;
+    transition: 0.1s;
+}
+
+.login:hover {
+    transform: scale(1.04);
+}

@@ -1,0 +1,25 @@
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", serif;
+
+    /* COLORS */
+    --bg-box-color: #121212;
+    --bg-box-color-little-light: #171717;
+    --bg-box-color-light: #242424;
+    --bg-icon-color: #131313;
+    --bg-arrow-color: rgba(0,0,07);
+    --bg-search-color: #242424;
+
+    /* BORDER */
+    --box-round: 8px;
+    --button-round: 20px;
+    --button-super-round: 40px;
+
+    /* SIZE */
+    --icon-small: 17px;
+    --icon-medium: 24px;
+    --font-small: 13px;
+    --font-medium: 16px;
+    --font-big: 1rem;
+    --font-extra-big: 1.5rem;
+}

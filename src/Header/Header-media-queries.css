@@ -1,0 +1,13 @@
+@media screen  and (max-width: 1015px) {
+    .header__navigation .logo {
+        display: flex;
+    }
+
+    .header__search {
+        display: none;
+    }
+
+    .search-button {
+        display: flex;
+    }
+}
