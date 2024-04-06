@@ -15,13 +15,13 @@ const SideBar = () => {
                 </div>
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="./">
                             <span className="fa fa-house"></span>
                             <span>Início</span>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="./">
                             <span className="fa fa-magnifying-glass"></span>
                             <span>Buscar</span>
                         </a>
@@ -35,7 +35,7 @@ const SideBar = () => {
                         <span className="fa fa-book"></span>
                         <span>Sua Biblioteca</span>
                     </button>
-                    <a href="">
+                    <a href="./">
                         <span className="fa fa-plus"></span>
                     </a>
                 </div>
@@ -51,7 +51,7 @@ const SideBar = () => {
                 </section>
 
                 <div className="cookies">
-                    <a href="">Cookies</a>
+                    <a href="./">Cookies</a>
                 </div>
 
                 <div className="languages">
