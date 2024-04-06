@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/MarcosExing/Spotify_Clone/static/css/main.523e07ed.css",
-    "main.js": "/MarcosExing/Spotify_Clone/static/js/main.d8d67b85.js",
-    "static/js/787.8b4a3f5a.chunk.js": "/MarcosExing/Spotify_Clone/static/js/787.8b4a3f5a.chunk.js",
-    "static/media/Mix4.mp3": "/MarcosExing/Spotify_Clone/static/media/Mix4.c26adda3b623c9a142cb.mp3",
-    "static/media/Jump Up.wav": "/MarcosExing/Spotify_Clone/static/media/Jump Up.f50dfc3597a5fa0e2674.wav",
-    "static/media/In The Night.wav": "/MarcosExing/Spotify_Clone/static/media/In The Night.c56198906d5abff64178.wav",
-    "static/media/Slicer.wav": "/MarcosExing/Spotify_Clone/static/media/Slicer.740cf033a96f66fd3e1e.wav",
-    "static/media/Deep In Your Mind.wav": "/MarcosExing/Spotify_Clone/static/media/Deep In Your Mind.27c3ffef9d4bb7a70ae8.wav",
-    "static/media/Mix1.mp3": "/MarcosExing/Spotify_Clone/static/media/Mix1.91f57d825f379c028c74.mp3",
-    "static/media/Martin Garrix.jpg": "/MarcosExing/Spotify_Clone/static/media/Martin Garrix.74ba342d810b5886c44c.jpg",
-    "static/media/DMSans-VariableFont_opsz,wght.ttf": "/MarcosExing/Spotify_Clone/static/media/DMSans-VariableFont_opsz,wght.90130db6a4fc53f17a88.ttf",
-    "static/media/SpotifyLogo.png": "/MarcosExing/Spotify_Clone/static/media/SpotifyLogo.f48fb565509bf23854a8.png",
-    "static/media/Folder-SouEu.jpg": "/MarcosExing/Spotify_Clone/static/media/Folder-SouEu.e2027f72a7f6f424fda5.jpg",
-    "index.html": "/MarcosExing/Spotify_Clone/index.html",
-    "main.523e07ed.css.map": "/MarcosExing/Spotify_Clone/static/css/main.523e07ed.css.map",
-    "main.d8d67b85.js.map": "/MarcosExing/Spotify_Clone/static/js/main.d8d67b85.js.map",
-    "787.8b4a3f5a.chunk.js.map": "/MarcosExing/Spotify_Clone/static/js/787.8b4a3f5a.chunk.js.map"
+    "main.css": "/Spotify_Clone/static/css/main.9e1ed48d.css",
+    "main.js": "/Spotify_Clone/static/js/main.3053c551.js",
+    "static/js/787.8b4a3f5a.chunk.js": "/Spotify_Clone/static/js/787.8b4a3f5a.chunk.js",
+    "static/media/Mix4.mp3": "/Spotify_Clone/static/media/Mix4.c26adda3b623c9a142cb.mp3",
+    "static/media/Jump Up.wav": "/Spotify_Clone/static/media/Jump Up.f50dfc3597a5fa0e2674.wav",
+    "static/media/In The Night.wav": "/Spotify_Clone/static/media/In The Night.c56198906d5abff64178.wav",
+    "static/media/Slicer.wav": "/Spotify_Clone/static/media/Slicer.740cf033a96f66fd3e1e.wav",
+    "static/media/Deep In Your Mind.wav": "/Spotify_Clone/static/media/Deep In Your Mind.27c3ffef9d4bb7a70ae8.wav",
+    "static/media/Mix1.mp3": "/Spotify_Clone/static/media/Mix1.91f57d825f379c028c74.mp3",
+    "static/media/Martin Garrix.jpg": "/Spotify_Clone/static/media/Martin Garrix.74ba342d810b5886c44c.jpg",
+    "static/media/DMSans-VariableFont_opsz,wght.ttf": "/Spotify_Clone/static/media/DMSans-VariableFont_opsz,wght.90130db6a4fc53f17a88.ttf",
+    "static/media/SpotifyLogo.png": "/Spotify_Clone/static/media/SpotifyLogo.f48fb565509bf23854a8.png",
+    "static/media/Folder-SouEu.jpg": "/Spotify_Clone/static/media/Folder-SouEu.e2027f72a7f6f424fda5.jpg",
+    "index.html": "/Spotify_Clone/index.html",
+    "main.9e1ed48d.css.map": "/Spotify_Clone/static/css/main.9e1ed48d.css.map",
+    "main.3053c551.js.map": "/Spotify_Clone/static/js/main.3053c551.js.map",
+    "787.8b4a3f5a.chunk.js.map": "/Spotify_Clone/static/js/787.8b4a3f5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.523e07ed.css",
-    "static/js/main.d8d67b85.js"
+    "static/css/main.9e1ed48d.css",
+    "static/js/main.3053c551.js"
   ]
 }
