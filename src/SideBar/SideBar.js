@@ -9,7 +9,7 @@ const SideBar = () => {
 
             <nav className="sidebar__navigation">
                 <div className="logo">
-                    <a href="">
+                    <a href="./">
                         <img src={logo} alt="logo do Spotify" />
                     </a>
                 </div>
