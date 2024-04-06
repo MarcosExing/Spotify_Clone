@@ -2,8 +2,6 @@
  Reecriação da página inicial do Spotify com React. Esse projeto faz parte da imersão Front-End da Alura.
 
 ## Tabela de Conteúdos
-- [Spotify\_Clone](#spotify_clone)
-  - [Tabela de Conteúdos](#tabela-de-conteúdos)
   - [Visão Geral](#visão-geral)
     - [Screenshot](#screenshot)
     - [Links](#links)
